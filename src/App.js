@@ -1,23 +1,23 @@
-import React from 'react'
-import Layout from './component/Layout/Layout'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
+import React from 'react';
+import {Route, Routes, BrowserRouter } from 'react-router-dom';
+import Home from './pages/Home';
+import Camping from './pages/Camping';
+import Layout from './component/Layout/Layout';
 
 
 const App = () => {
+  console.log('@@@@@@@')
   return (
-    <div>
     <BrowserRouter>
-    <Layout>
-      <Routes>
-         <Route path='/' Component={Home}/>
-      </Routes>
-    
-    </Layout>
-    
+      <Layout>
+        <Routes>
+          <Route path="/" Component={Home} />
+          <Route path='/locations' Component={Location}/>
+          <Route path='/Camping' Component={Camping}/>
+        </Routes>
+      </Layout>
     </BrowserRouter>
-    </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

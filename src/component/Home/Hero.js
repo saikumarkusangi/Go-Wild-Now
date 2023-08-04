@@ -1,13 +1,15 @@
 import React from 'react'
 import images  from "../../constants/images"
 import {BsFillArrowRightCircleFill} from "react-icons/bs";
+import Header from '../Layout/Header';
 
 
 function Hero() {
   return (
     <div>
+    <Header/>
      <img className="object-cover h-[90vh] md:h-full object-[45%] md:w-full " src={images.Herobg} alt="Hero"/>
-        <div className="z-30 absolute top-[30%] md:top-[20%] pr-3 left-[8%] md:left-[50%] flex flex-col gap-2 md:gap-8">
+        <div className="z-0 absolute top-[30%] md:top-[20%] pr-3 left-[8%] md:left-[50%] flex flex-col gap-2 md:gap-8">
           <h1 className="text-4xl md:text-6xl font-Fenix "> Never Stop</h1>
           <h1 className=" text-[#549064] text-6xl md:text-8xl font-medium ">
           Exploring
