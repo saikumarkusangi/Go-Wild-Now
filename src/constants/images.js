@@ -16,15 +16,22 @@ import Blog3      from "../assets/asset 55.jpeg"
 import Person      from "../assets/asset 13.jpeg"
 import Light      from "../assets/asset 14.jpeg"
 import Belay      from "../assets/asset 19.jpeg"
-import BabecueOven      from "../assets/asset 17.jpeg"
-import Glass      from "../assets/asset 3.jpeg"
+import BabecueOven    from "../assets/asset 17.jpeg"
+import Glass          from "../assets/asset 3.jpeg"
 import FooterBg      from "../assets/asset 56.jpeg"
+import Manali      from    "../assets/a1.jpg"
+import Munnar      from    "../assets/a2.png"
+import Kedarkantha    from "../assets/a3.jpg"
+import Tigerhill      from "../assets/a4.jpg"
+
+
+
 
 
 
 export default {Logo,CouplesWithMap ,Herobg , Specialofferbg , Hill , Shoe ,Handchain , Blade , Scope , Cooker ,Bag ,TeaVessel , Blog1 ,Blog2 , Blog3
 
-     , Person,Light,Belay,BabecueOven,Glass,FooterBg
+     , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar
 
 
 
