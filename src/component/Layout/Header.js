@@ -27,7 +27,7 @@ function Header() {
   console.log('&&&&&&&&&&&&')
   return (
     <div className='absolute z-50'>
-    <div className={`${scrolling ? 'bg-white' : 'bg-transparent'}   w-full fixed justify-between flex items-center px-2 md:px-4 py-2`}>
+    <div className={`${scrolling ? 'bg-gray-200' : 'bg-transparent'}   w-full fixed justify-between flex items-center px-2 md:px-4 py-2`}>
       <Link to="/">
       <div className='flex items-center'>
         <img src={Images.Logo} alt='Logo' className='h-20 '/> 

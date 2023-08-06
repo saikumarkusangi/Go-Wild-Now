@@ -4,6 +4,7 @@ import Hero from "../component/Home/Hero"
 import NewArrivals from "../component/Home/NewArrivals"
 import Places from "../component/Home/Places"
 import SpecialOffer from "../component/Home/SpecialOffer"
+import Contact from "./Contact"
 import Location from "./Location"
 
 
@@ -17,8 +18,9 @@ function Home() {
      <Hero/>
      <Places/>
      <SpecialOffer/>
-    <BestProducts/>
+     <BestProducts/>
     <NewArrivals/>
+    <Contact/>
      
     {/* <Location/> */}
     
