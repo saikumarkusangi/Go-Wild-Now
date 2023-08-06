@@ -2,10 +2,10 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div id='contact' className=' m-auto w-full py-16'>
+    <div className=' m-auto w-full py-16'>
       <h2 className='text-2xl md:text-4xl my-4 font-Oswald font-bold text-[#04335e] text-center'>Send us a message</h2>
-      <p className='text-2xl md:text-xl my-4 font-Oswald font-bold text-[#04335e] text-center'>We're standing by!</p>
-      <div className='grid md:grid-cols-2 bg-cyan-100'>
+      <p className='text-lg md:text-lg my-4 font-Oswald font-bold text-black text-center'>We're standing by!</p>
+      <div className='grid md:grid-cols-2 bg-green-100'>
         <img
           src='https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80'
           alt='/'
