@@ -17,7 +17,7 @@ const Contact = () => {
             <input className='border m-2 border-black border-2 ' type='email' placeholder='Email' />
             <input className='border m-2 border-black border-2' type='tel' placeholder='Phone' />
             <input className='border col-span-2 border-black border-2 py-2 m-2' type='text' placeholder='Address' />
-            <textarea className='border border-black col-span-2 m-2 p-2' cols='10' rows='6'>Write Your</textarea>
+            <textarea className='border border-black col-span-2 m-2 p-2' cols='10' rows='6'>Write Your Message</textarea>
             <button className='col-span-2 m-2 bg-cyan-400 px-2 py-2 text-black text-lg'>Submit</button>
           </div>
         </form>
