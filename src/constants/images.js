@@ -23,6 +23,8 @@ import Manali      from    "../assets/a1.jpg"
 import Munnar      from    "../assets/a2.png"
 import Kedarkantha    from "../assets/a3.jpg"
 import Tigerhill      from "../assets/a4.jpg"
+import Gif     from "../assets/gif.gif"
+import Contact      from    "../assets/2.png"
 
 
 
@@ -31,7 +33,7 @@ import Tigerhill      from "../assets/a4.jpg"
 
 export default {Logo,CouplesWithMap ,Herobg , Specialofferbg , Hill , Shoe ,Handchain , Blade , Scope , Cooker ,Bag ,TeaVessel , Blog1 ,Blog2 , Blog3
 
-     , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar
+     , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar,Gif,Contact 
 
 
 

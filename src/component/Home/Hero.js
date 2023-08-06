@@ -15,10 +15,37 @@ function Hero() {
           Exploring
         </h1>
          <p className="text-sm md:w-[80%] leading-8">Embark on Epic Wilderness Expeditions. Conquer Majestic Peaks, Forge Unforgettable Trails, and Immerse Yourself in the Grandeur of Nature. Join Our Hiking Community and Let Your Adventurous Spirit Roam Free.</p>
-          <button className="bg-[#549064] w-36 py-4 text-white text-lg rounded-md  items-center flex justify-center gap-4">
+         <form className='lg:flex lg:justifiy-between w-full items-center'>
+        <div className='flex flex-col my-2 py-2'>
+          <label>Destination:</label>
+          <select className='lg:w-[300px] md:w-full border rounded-md p-2'>
+            <option>Manali</option>
+            <option>Munnar</option>
+            <option>Rishikesh</option>
+            <option>Shimla</option>
+            
+          </select>
+        </div>
+        <div className='flex w-full'>
+          <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
+            <label>Check-In</label>
+            <input className='border rounded-md p-2' type='date' />
+          </div>
+          <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
+            <label>Check-Out</label>
+            <input className='border rounded-md p-2' type='date' />
+          </div>
+        </div>
+
+      </form>
+         
+         
+         
+         <button className="bg-[#549064] w-36 py-4 text-white text-lg rounded-md  items-center flex justify-center gap-4">
             Explore 
             <BsFillArrowRightCircleFill size={24}/>
           </button>
+       
          </div>
          <div>
            
