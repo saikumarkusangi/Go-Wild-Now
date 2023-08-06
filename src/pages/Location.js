@@ -1,6 +1,5 @@
 import React from 'react';
 import { BsFillCalendar2DateFill } from 'react-icons/bs';
-import images from '../constants/images';
 
 function Location() {
   return (

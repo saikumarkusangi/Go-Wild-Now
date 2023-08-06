@@ -14,7 +14,7 @@ function Home() {
 
   return (
    <div>
-   n  <Hero/>
+     <Hero/>
      <Places/>
      <SpecialOffer/>
     <BestProducts/>
