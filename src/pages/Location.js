@@ -3,7 +3,7 @@ import React from 'react';
 import images from '../constants/images';
 function Location() {
   return (
-          <div className=''> 
+          <div className='relative '> 
              <img className='object-cover h-[60vh] md:h-full  md:w-full' src={images.Abouth}alt='hrader'/>
          <div className="z-0   top-[20%] md:top-[20%] pr-3 left-[24%] md:bg-transparent gap-4 md:left-[40%] flex flex-col md:gap-8">
               <h1 className="  absolute  text-white text-4xl md:text-6xl font-medium px-10 ">About Us</h1>
