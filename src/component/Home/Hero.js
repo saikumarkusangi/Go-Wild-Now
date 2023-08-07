@@ -9,7 +9,7 @@ function Hero() {
     <div>
     <Header/>
      <img className="object-cover h-[70vh] md:h-full object-[45%] md:w-full " src={images.Herobg} alt="Hero"/>
-        <div className="z-0 md:absolute top-[30%] md:top-[20%] pr-3 left-[8%]  bg-gray-100 md:left-[50%] flex flex-col gap-2 md:gap-8">
+        <div className="z-0 md:absolute top-[30%] md:top-[20%] pr-3 left-[8%]  bg-gray-100 md:bg-transparent md:left-[50%] flex flex-col gap-2 md:gap-8">
           <h1 className="text-4xl md:text-6xl font-Fenix "> Never Stop</h1>
           <h1 className=" text-[#549064] text-6xl md:text-8xl font-medium ">
           Exploring
@@ -27,6 +27,7 @@ function Hero() {
             
           </select>
         </div>
+        
         <div className='flex w-full'>
           <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
             <label className='md:text-white font-bold text-xl text-center  '>Trip-Start-Date</label>

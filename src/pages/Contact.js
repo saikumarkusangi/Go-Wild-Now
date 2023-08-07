@@ -1,24 +1,30 @@
 import React from 'react';
+import images from '../constants/images';
 
 const Contact = () => {
   return (
-    <div className=' m-auto w-full py-16'>
-      <h2 className='text-2xl md:text-4xl my-4 font-Oswald font-bold text-[#04335e] text-center'>Send us a message</h2>
-      <p className='text-lg md:text-lg my-4 font-Oswald font-bold text-black text-center'>We're standing by!</p>
-      <div className='grid md:grid-cols-2 bg-green-100'>
+    <div className=' m-auto w-full py-16 '>
+      <div className='flex flex-col items-center gap-4'>
+          <h2 className='text-2xl md:text-4xl my-4 font-Oswald font-bold text-[#04335e] text-center'>Send us a message</h2>
+          <p className='text-lg md:text-lg my-4 font-Oswald font-bold text-black text-center'>We're standing by!</p>
+          <img className='  text-[#04335e]  mb-4' src={images.Hill} alt="Best Products" />
+      </div>
+     
+     
+      <div className='grid md:grid-cols-2'>
         <img
-          src='https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80'
+          src='https://slidesigma.nyc/templatemonster/react/campa/assets/img/blog/3.jpg'
           alt='/'
-          className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px] '/>
-        <form className=''>
-          <div className='grid grid-cols-2 bg-green-100'>
-            <input className='border m-2 border-black border-2  font-semibold text-lg text-black' type='text' placeholder='First' />
-            <input className='border m-2 border-black border-2  font-semibold text-lg text-black' type='text' placeholder='Last' />
-            <input className='border m-2 border-black border-2  font-semibold text-lg text-black' type='email' placeholder='Email' />
-            <input className='border m-2 border-black border-2  font-semibold text-lg text-black' type='tel' placeholder='Phone' />
-            <input className='border col-span-2 border-black border-2 py-2 m-2' type='text' placeholder='Address' />
-            <textarea className='border border-black col-span-2 m-2 p-2' cols='10' rows='6'>Write Your Message</textarea>
-            <button className='col-span-2 m-2 bg-cyan-400 px-2 py-2 text-black text-lg'>Submit</button>
+          className='md:w-full ml-14 object-[40%] h-[50vh] md:h-full object-cover p-2 max-h-[500px] rounded-r-lg  '/>
+        <form className=' shadow-2xl w-[80%] ml-16'>
+          <div className='grid grid-cols-2 mt-8 px-4 '>
+                <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='text' placeholder='First' />
+                <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='text' placeholder='Last' />
+                <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='email' placeholder='Email' />
+                <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='tel' placeholder='Phone' />
+                <input className=' col-span-2 border-black  m-2  border-2 rounded-full px-4 py-4' type='text' placeholder='Address' />
+                <textarea className='border border-black col-span-2 m-2 p-2 ' cols='10' rows='6'>Write Your Message</textarea>
+                <button className='col-span-2 m-2  border-2 rounded-full px-1 py-4 bg-cyan-400  text-black text-lg top-4' >Get A Quote</button>
           </div>
         </form>
       </div>
