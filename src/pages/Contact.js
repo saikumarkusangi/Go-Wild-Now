@@ -11,13 +11,13 @@ const Contact = () => {
       </div>
      
      
-      <div className='grid md:grid-cols-2'>
+      <div className='grid md:grid-cols-2 overflow-hidden'>
         <img
           src='https://slidesigma.nyc/templatemonster/react/campa/assets/img/blog/3.jpg'
           alt='/'
           className='md:w-full ml-14 object-[40%] h-[50vh] md:h-full object-cover p-2 max-h-[500px] rounded-r-lg  '/>
         <form className=' shadow-2xl w-[80%] ml-16'>
-          <div className='grid grid-cols-2 mt-8 px-4 '>
+          <div className='grid grid-cols-2 mt-8 px-2 '>
                 <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='text' placeholder='First' />
                 <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='text' placeholder='Last' />
                 <input className=' m-2 border-black border-2 rounded-full px-4 py-4 font-semibold text-lg text-black' type='email' placeholder='Email' />
