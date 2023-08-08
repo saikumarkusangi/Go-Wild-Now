@@ -1,11 +1,13 @@
 import React from 'react';
 import images from '../../constants/images';
 
+
+
 function Footer() {
   return (
     <div className='bg-black text-white overflow-hidden'>
       <div className='flex flex-auto  py-2 w-1/2  '>
-        <div className='flex flex-col w-[50%]  px-[60%]   gap-4'>
+        <div className='flex flex-col w-[55%]  px-[50%]   gap-4'>
           <h1 className='text-xl text-red-700 font-Oswald font-bold'>Company</h1>
           <a className='text-lg' href='/'>Home</a>
           <a className='text-lg' href='/'>Location</a>
@@ -28,7 +30,7 @@ function Footer() {
         <input className='px-10 text-xl text-black font-medium py-1 ml-8 rounded-full' text='email' placeholder='Enter Your Email' />
         <button className='bg-[#f9430a] font-lg px-4 py-2 rounded-full  hover:bg-red-500 ml-8'>Submit</button>
       </div>
-        <h1 className='md:text-xl text-red-800 font-Oswald font-bold  md:ml-[35%] mt-4 underline-white ml-[20%]  '> Created by <span className='text-white'>Devigo Designer</span> | All right Reserved © 2023 </h1>
+        <h1 className='md:text-xl text-red-800 font-Oswald font-bold  md:ml-[35%] mt-4 underline-white text-sm ml-[10%] mb-10'> Created by <span className='text-white'>Devigo Designer</span> | All right Reserved © 2023 </h1>
       
     </div>
   );

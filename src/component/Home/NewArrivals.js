@@ -41,8 +41,10 @@ function NewArrivals() {
         return(
           <div className='text-center border-2  px-2 rounded-lg py-2 w-[60%] min-w-full md:min-w-min'>
               <img className='px-2 py-2 rounded-lg' src={iteams.image} alt="Glass" />
+              <div>
               <h1 className='mt-5 text-xl '>{iteams.name}</h1>
               <p className='font-Oswald text-2xl'>${iteams.price}</p>
+              </div>
          </div>
         )
       })}

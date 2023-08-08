@@ -41,7 +41,7 @@ function Hero() {
 
       </form>
        </div>
-         <button className="bg-[#549064] w-36 py-4 mb-5  text-white text-lg rounded-md  items-center flex justify-center gap-4 px-4">
+         <button className="hover:animate-bounce bg-[#549064] w-36 py-4 mb-5  text-white text-lg rounded-md  items-center flex justify-center gap-4 px-4">
             Explore 
             <BsFillArrowRightCircleFill size={24}/>
           </button>
