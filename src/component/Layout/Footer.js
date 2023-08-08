@@ -3,7 +3,7 @@ import images from '../../constants/images';
 
 function Footer() {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-black text-white overflow-hidden'>
       <div className='flex flex-auto  py-2 w-1/2  '>
         <div className='flex flex-col w-[50%]  px-[60%]   gap-4'>
           <h1 className='text-xl text-red-700 font-Oswald font-bold'>Company</h1>
