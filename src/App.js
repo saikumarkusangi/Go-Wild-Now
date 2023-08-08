@@ -13,6 +13,7 @@ const App = () => {
         <Routes>
           <Route path="/" Component={Home} />
           <Route path='/locations' Component={Location}/>
+          <Route path='/camping' Component={Camping}/>
         </Routes>
       </Layout>
     </BrowserRouter>

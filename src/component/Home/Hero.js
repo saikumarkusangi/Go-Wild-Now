@@ -19,7 +19,7 @@ function Hero() {
        <form className='md:flex md:justifiy-between w-full items-center  mt-1 '>
         <div className='flex flex-col my-2 py-1 px-2'>
           <label className='md:text-white font-bold text-xl text-center' >Destination</label>
-          <select className='lg:w-[300px] md:w-full border rounded-md p-2 border-black border-2'>
+          <select className='lg:w-[300px] md:w-full  rounded-md p-2 border-black border-2'>
             <option>Manali</option>
             <option>Munnar</option>
             <option>Rishikesh</option>
@@ -31,11 +31,11 @@ function Hero() {
         <div className='flex w-full'>
           <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
             <label className='md:text-white font-bold text-xl text-center  '>Trip-Start-Date</label>
-            <input className='border rounded-md p-2 border-black border-2' type='date' />
+            <input className=' rounded-md p-2 border-black border-2' type='date' />
           </div>
           <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
             <label className='md:text-white font-bold text-xl text-center ' >Trip-End-Date</label>
-            <input className='border rounded-md p-2 border-black border-2' type='date' />
+            <input className=' rounded-md p-2 border-black border-2' type='date' />
           </div>
         </div>
 
