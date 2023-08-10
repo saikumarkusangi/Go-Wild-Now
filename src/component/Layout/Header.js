@@ -37,7 +37,7 @@ function Header() {
       </Link>
       <div className='text-black md:flex cursor-pointer  hidden gap-10 text-xl font-semibold' >
         <Link to="/" className='hover:text-red-400 duration-100'>Home</Link>
-        <Link to="/aboutus" className='hover:text-red-400 duration-100 '>About Us</Link>
+        <Link to="/aboutus" className='hover:text-red-400 duration-100'>About Us</Link>
         <Link to="/camping" className='hover:text-red-400 duration-100'>Camping</Link>
         <Link to="/Shop" className='hover:text-red-400 duration-100'>Shop</Link>
         <Link to="/Camping" className='hover:text-red-400 duration-100'>Contact Us</Link>
