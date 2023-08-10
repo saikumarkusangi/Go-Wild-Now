@@ -35,11 +35,11 @@ function Header() {
       </div>
 
       </Link>
-      <div className='text-black md:flex cursor-pointer  hidden gap-10 text-lg' >
+      <div className='text-black md:flex cursor-pointer  hidden gap-10 text-xl font-semibold' >
         <Link to="/" className='hover:text-red-400 duration-200'>Home</Link>
-        <Link to="/locations" className='hover:text-red-400 duration-200'>Aboutus</Link>
+        <Link to="/aboutus" className='hover:text-red-400 duration-200 '>Aboutus</Link>
         <Link to="/camping" className='hover:text-red-400 duration-200'>Camping</Link>
-        <Link className='hover:text-red-400 duration-200'>Shop</Link>
+        <Link to="/Shop" className='hover:text-red-400 duration-200'>Shop</Link>
         <Link to="/Camping" className='hover:text-red-400 duration-200'>Contact Us</Link>
      
       </div>
@@ -49,9 +49,9 @@ function Header() {
       ${open ? 'right-0': 'right-[-100%]'} `}>
       <AiOutlineClose size={24} onClick={toggle} className=' absolute top-10 right-5'/>
       <Link to='/' className='hover:text-red-400 duration-200'>Home</Link>
-      <Link to='/locations' className='hover:text-red-400 duration-200'>Aboutus</Link>
+      <Link to='/aboutus' className='hover:text-red-400 duration-200'>Aboutus</Link>
       <Link to="/Camping" className='hover:text-red-400 duration-200'>Camping</Link>
-      <Link  className='hover:text-red-400 duration-200'>Shop</Link>
+      <Link to="/Shop" className='hover:text-red-400 duration-200'>Shop</Link>
       <Link to="/" className='hover:text-red-400 duration-200'>Contact Us</Link>
     
     </div>

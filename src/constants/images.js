@@ -27,10 +27,16 @@ import       Gif                            from                        "../asse
 import       Contact                        from                        "../assets/2.png"
 import       About                          from                        "../assets/about-2.png"
 import       Abouth                         from                        "../assets/subheader.jpg"
+import       Location                       from                          "../assets/L.jpeg"
+import       Tenet1                         from                        "../assets/asset 24.png"
+import       Tenet2                         from                        "../assets/asset 25.jpeg"
+import       Tenet3                         from                        "../assets/asset 23.jpeg"
 
-
-                
-
+import       bag1                        from                            "../assets/asset 15.jpeg"
+import       bag2                        from                            "../assets/asset 2.jpeg"
+import       bag3                        from                            "../assets/asset 16.jpeg"
+import       Shoph                        from                            "../assets/gif.gif"
+              
 
 
 
@@ -38,8 +44,7 @@ export default {
                  
                  Logo,CouplesWithMap ,Herobg , Specialofferbg , Hill , Shoe ,Handchain , Blade , Scope , Cooker ,Bag ,TeaVessel , Blog1 ,Blog2 , Blog3
 
-               , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar,Gif,Contact ,About,Abouth
-
-
+               , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar,Gif,Contact ,About,Abouth,Location,  Tenet1,Tenet2,Tenet3
+              ,bag1,bag2,bag3, Shoph
                        
 }

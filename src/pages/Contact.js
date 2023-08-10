@@ -7,7 +7,7 @@ const Contact = () => {
       <div className='flex flex-col items-center gap-4'>
           <h2 className='text-2xl md:text-4xl my-4 font-Oswald font-bold text-[#04335e] text-center'>Send us a message</h2>
           <p className='text-lg md:text-lg my-4 font-Oswald font-bold text-black text-center'>We're standing by!</p>
-          <img className='  text-[#04335e]  mb-4' src={images.Hill} alt="Best Products" />
+          <img className='  text-[#04335e]  mb-6' src={images.Hill} alt="Best Products" />
       </div>
      
      

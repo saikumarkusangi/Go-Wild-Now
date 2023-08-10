@@ -43,7 +43,7 @@ const data = [
 ]
 
   return (
-    <div className='relative cursor-pointer overflow-hidden '> 
+    <div className='relative cursor-pointer overflow-hidden  '> 
     <img className='object-cover h-[60vh] md:h-full  md:w-full ' src={images.Abouth}alt='hrader'/>
 <div className="z-0  absolute top-[10%]  md:bg-transparent gap-4 md:left-[38%] flex flex-col md:gap-8 ">
      <h1 className="text-[#f8fbfe] text-2xl md:text-6xl font-bold md:px-10 px-24 ">Case Studies</h1>
@@ -53,11 +53,11 @@ const data = [
      <a href='#' className='text-xl font-Oswald font-semibold text-[#f9430a] pr-4 '>Camping</a>
  </div>
   </div>
-  <div className='flex  flex-wrap md:w-[100%]  mx-12  md:mx-14 my-4 '> 
+  <div className='flex  flex-wrap md:w-[100%]  md:mx-14 my-4 '> 
      {data.map(iteams => {
       return(
           <div className=' md:w-[30%]   relative  gap-8  mx-2 my-4'>
-            <img className=' md:h-full h-[40vh]  object-cover rounded-lg  ' src={iteams.image} alt='image'/>
+            <img className='w-full md:h-full   object-cover rounded-lg ease-in md:px-0 px-4' src={iteams.image} alt='image'/>
             
             <div className='absolute left-0 bottom-0 md:bg-gradient-to-t from-[#000000d4] w-full h-full  '>
             <h1 className='text-2xl text-[#f36525] font-bold font-Oswald absolute bottom-20 left-5 md:left-10'>{iteams.Title}</h1>
