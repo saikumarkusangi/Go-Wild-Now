@@ -6,8 +6,8 @@ import images from '../../constants/images';
 function Footer() {
   return (
     <div className='bg-black text-white overflow-hidden'>
-      <div className='flex flex-auto   py-4 md:w-1/2   '>
-        <div className='flex flex-col md:w-[55%]   md:px-[59%] px-10  gap-4'>
+      <div className='flex flex-auto  py-4 md:w-1/2   '>
+        <div className='flex flex-col md:w-[55%]   md:px-[62%] px-10  gap-4'>
           <h1 className='text-xl text-red-700 font-Oswald font-bold'>Company</h1>
           <a className='text-lg' href='/'>Home</a>
           <a className='text-lg' href='/'>Location</a>
