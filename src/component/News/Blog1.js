@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../Layout/Header'
-import { BsImages } from 'react-icons/bs'
 import images from '../../constants/images'
 
 function Blog1() {

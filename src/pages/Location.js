@@ -1,7 +1,7 @@
 import React from 'react';
 
 import images from '../constants/images';
-function Location() {
+function Aboutus() {
   return (
           <div className='relative '> 
              <img className='object-cover h-[60vh] md:h-full  md:w-full' src={images.Abouth}alt='hrader'/>
@@ -40,4 +40,4 @@ function Location() {
   );
 }
 
-export default Location;
+export default Aboutus;

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Camping from './pages/Camping';
 import Layout from './component/Layout/Layout';
 import Location from './pages/Location';
+import Aboutus from './pages/Location';
 
 const App = () => {
   console.log('@@@@@@@')
@@ -12,7 +13,8 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path='/locations' Component={Location}/>
+          <Route path='/Aboutus' Component={Aboutus}/>
+          
           <Route path='/camping' Component={Camping}/>
         </Routes>
       </Layout>
