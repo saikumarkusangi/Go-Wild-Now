@@ -37,7 +37,7 @@ function Header() {
       </Link>
       <div className='text-black md:flex cursor-pointer  hidden gap-10 text-xl font-semibold' >
         <Link to="/" className='hover:text-red-400 duration-100'>Home</Link>
-        <Link to="/aboutus" className='hover:text-red-400 duration-100 '>Aboutus</Link>
+        <Link to="/aboutus" className='hover:text-red-400 duration-100 '>About Us</Link>
         <Link to="/camping" className='hover:text-red-400 duration-100'>Camping</Link>
         <Link to="/Shop" className='hover:text-red-400 duration-100'>Shop</Link>
         <Link to="/Camping" className='hover:text-red-400 duration-100'>Contact Us</Link>
@@ -49,7 +49,7 @@ function Header() {
       ${open ? 'right-0': 'right-[-100%]'} `}>
       <AiOutlineClose size={24} onClick={toggle} className=' absolute top-10 right-5'/>
       <Link to='/' className='hover:text-red-400 duration-200'>Home</Link>
-      <Link to='/aboutus' className='hover:text-red-400 duration-200'>Aboutus</Link>
+      <Link to='/aboutus' className='hover:text-red-400 duration-200'>About Us</Link>
       <Link to="/Camping" className='hover:text-red-400 duration-200'>Camping</Link>
       <Link to="/Shop" className='hover:text-red-400 duration-200'>Shop</Link>
       <Link to="/" className='hover:text-red-400 duration-200'>Contact Us</Link>
