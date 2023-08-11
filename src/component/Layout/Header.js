@@ -30,9 +30,10 @@ function Header() {
     <div className={`${scrolling ? 'bg-gray-200' : 'bg-transparent'}   w-full fixed justify-between flex items-center px-2 md:px-4 py-2`}>
       <Link to="/">
       <div className='flex items-center'>
-        <img src={Images.Logo} alt='Logo' className='h-20 '/> 
+        <img src={Images.Logos} alt='Logo' className='h-20 '/> 
         <h1 className='text-black text-2xl md:text-4xl font-bold font-DancingScript'>Go Wild Now</h1>
       </div>
+  
 
       </Link>
       <div className='text-black md:flex cursor-pointer  hidden gap-10 text-xl font-semibold' >
