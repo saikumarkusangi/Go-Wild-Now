@@ -11,7 +11,7 @@ function Locations() {
           <img className=' text-[#04335e] mb-4' src={images.Hill} alt="Best Products" />
       </div>
    
-    <img className='  w-full object-[40%] h-[50vh] md:h-full object-cover mb-14 border-black border-2 ' src={images.Location}alt='Specailoffer'/>
+    <img className='  w-full object-[40%] h-[50vh] md:h-full object-cover mb-14 border-black border-2 ' src={'https://irisholidays.com/keralatourism/wp-content/uploads/2023/06/places-to-visit-in-munnar-1.jpg'}alt='Specailoffer'/>
 
     </div>
   )
