@@ -5,7 +5,7 @@ import images from '../../constants/images'
 
 function Locations() {
   return (
-    <div className=' w-[90%]   mx-auto rounded-2xl overflow-hidden'>
+    <div className=' w-[90%] overflow-x-hidden  mx-auto rounded-2xl overflow-hidden'>
           <div className='flex flex-col items-center gap-4'>
           <h1 className='text-2xl md:text-4xl my-4 font-Oswald font-bold text-[#04335e]'>Famous Places</h1>
           <img className=' text-[#04335e] mb-4' src={images.Hill} alt="Best Products" />
