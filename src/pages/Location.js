@@ -5,7 +5,7 @@ function Aboutus() {
   return (
           <div className='relative '> 
              <img className='object-cover h-[60vh] md:h-full  md:w-full' src={images.Abouth}alt='hrader'/>
-         <div className="z-0  absolute md:top-[20%] top-10 md:mt-0 mt-40 left-20  md:bg-transparent gap-4 md:left-[40%] flex flex-col md:gap-8">
+         <div className="z-0  absolute md:top-[10%] top-10 md:mt-0 mt-40 left-20  md:bg-transparent gap-4 md:left-[40%] flex flex-col md:gap-8">
               <h1 className="text-[#f8fbfe] text-4xl md:text-6xl font-medium px-10 ">About Us</h1>
           <div className='flex  justify-center gap-10 rounded-full py-4   bg-white'>
               <a href='/' className='text-xl font-Oswald font-semibold hover:text-red-600  hover:duration-150 pl-8'>Home </a>

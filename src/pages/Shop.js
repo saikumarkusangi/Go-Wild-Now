@@ -47,7 +47,7 @@ const data = [
   return (
     <div className='relative cursor-pointer overflow-hidden  '> 
     <img className='object-cover h-[60vh] md:h-[60vh] py-22 md:w-full  ' src={images.Shoph}alt='hrader'/>
-<div className="z-0  absolute md:top-[20%] top-[10%] md:bg-transparent left-24 gap-4 md:left-[40%] flex flex-col md:gap-8 ">
+<div className="z-0  absolute md:top-[10%] top-[10%] md:bg-transparent left-16 gap-4 md:left-[40%] flex flex-col md:gap-8 ">
      <h1 className="text-[#f8fbfe] text-2xl md:text-6xl font-bold md:px-14 px-24 ">Shop</h1>
  <div className='flex  justify-center gap-10 rounded-full py-4  px-14  bg-white '>
      <a href='/' className='text-xl font-Oswald font-semibold hover:text-red-600   md:pl-8'>Home </a>
