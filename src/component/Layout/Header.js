@@ -31,7 +31,7 @@ function Header() {
       <Link to="/">
       <div className='flex items-center'>
         <img src={Images.Logos} alt='Logo' className='h-20 '/> 
-       <h1 className='text-black text-2xl md:text-4xl font-bold font-DancingScript'>Go Wild Now</h1>
+        <h1 className='text-black text-2xl md:text-4xl font-bold font-DancingScript'>Go Wild Now</h1>
       
       </div>
   
