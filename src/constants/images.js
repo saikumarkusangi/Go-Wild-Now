@@ -45,6 +45,6 @@ export default {
                  Logo,CouplesWithMap ,Herobg , Specialofferbg , Hill , Shoe ,Handchain , Blade , Scope , Cooker ,Bag ,TeaVessel , Blog1 ,Blog2 , Blog3
 
                , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar,Gif,Contact ,About,Abouth,Location,  Tenet1,Tenet2,Tenet3
-              ,bag1,bag2,bag3, Shoph,logos
+              ,bag1,bag2,bag3, Shoph, Logos       
                        
 }
