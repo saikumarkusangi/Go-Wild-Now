@@ -1,5 +1,5 @@
 import       Logo                           from                        "../assets/logo.png"
-import       logos                           from                        "../assets/Mlogos.png"
+import       Logos                           from                        "../assets/Mlogos.png"
 import       CouplesWithMap                 from                        "../assets/3.png"
 import       Herobg                         from                        "../assets/asset 7.jpeg"
 import       Specialofferbg                 from                        "../assets/asset 43.jpeg"
