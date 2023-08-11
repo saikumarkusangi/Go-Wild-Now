@@ -1,4 +1,5 @@
 import       Logo                           from                        "../assets/logo.png"
+import       Logos                           from                        "../assets/Mlogos.png"
 import       CouplesWithMap                 from                        "../assets/3.png"
 import       Herobg                         from                        "../assets/asset 7.jpeg"
 import       Specialofferbg                 from                        "../assets/asset 43.jpeg"
@@ -44,6 +45,6 @@ export default {
                  Logo,CouplesWithMap ,Herobg , Specialofferbg , Hill , Shoe ,Handchain , Blade , Scope , Cooker ,Bag ,TeaVessel , Blog1 ,Blog2 , Blog3
 
                , Person,Light,Belay,BabecueOven,Glass,FooterBg,Tigerhill,Kedarkantha,Manali,Munnar,Gif,Contact ,About,Abouth,Location,  Tenet1,Tenet2,Tenet3
-              ,bag1,bag2,bag3, Shoph
+              ,bag1,bag2,bag3, Shoph,logos
                        
 }
